@@ -1,0 +1,275 @@
+/*start top price*/
+body{margin-top:0px;font-family: 'Open Sans Condensed', sans-serif; font-weight: bold;}
+a{color: #888888;  transition: all 0.4s ease-in-out;}
+a:hover{color: #F83940;text-decoration: none;}
+.top_price{ background:#282828; padding: 7px;}
+.top_price span{
+	color: #F83940;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.top_price span:last-child{
+	color:#FFF;
+	display: block; 
+	font-weight: normal;
+	margin-top: -1px;
+	font-size: 1em;
+}
+/*End top price*/
+
+/*start price*/
+.price{
+
+	border: 1px solid #CCC;
+}
+.price .dropdown{
+		border-right: 1px solid #CCC;
+		border-left: 1px solid #CCC;
+}
+.price .dropdown a{padding: 10px;}
+.price .list-inline{margin-top: 0.8em;}
+.price .lng , .price .cartt{padding-left: 8px;}
+.price .cartt i{margin-right: 5px}
+
+
+
+/*start contact*/
+.contact{
+	border-bottom: 1px solid #CCC;
+	padding: 2%;
+}
+.contact h3{color: #F83940;}
+.contact h4 a{color: #333}
+.contact h4 a:hover{
+	color: #F83940;
+}
+ .social a {color: #CCC}
+ .social a:hover{color:#888}
+.contact span{
+	font-size: 0.8em;
+margin-top: -10px;
+display: inherit;
+color: #CCC;
+transition: all 0.4s ease-in-out;
+}
+.contact:hover span{color: #888888}
+.contact .list-inline{margin-top: 1.2em;}
+.contact .list-inline li,
+footer .list-inline li
+{margin-left: 1em; }
+
+/*End contact*/
+
+.navbar-nav{
+	float: none;
+	margin-left: 30%;
+}
+.navbar-default{
+	background: #FFF;
+	border: none;
+}
+.navbar-nav li{ 
+	padding: 5px;
+
+	
+}
+.navbar-nav li a {
+	border-right: 1px solid #CCC;
+	padding-top: 8px;
+	padding-right: 20px;
+	margin-top: 2px;
+	font-size: 1.1em;
+}
+.navbar-nav li a:hover{ }
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+	 color:#F83940
+}
+
+/*start slider*/
+.slider{margin-top: -20px}
+/*End Slider*/
+/*start category*/
+.simplefilter li, .multifilter li, .sortandshuffle li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+.simplefilter li {
+    background-color: #585858;
+}
+.simplefilter li.active {
+    background-color: #FF4F43;
+}
+.multifilter li {
+    background-color: #4b9eff;
+}
+.multifilter li.active {
+    background-color: #2265b4;
+}
+
+/*End category*/
+
+/*start latest*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+.snip1572 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background: #ffffff;
+}
+
+.snip1572 *,
+.snip1572:before,
+.snip1572:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.snip1572 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.snip1572:before,
+.snip1572:after {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.snip1572:before {
+  width: 300px;
+  height: 2px;
+}
+
+.snip1572:after {
+  height: 300px;
+  width: 2px;
+}
+
+.snip1572 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.snip1572 h3 {
+  font-weight: 400;
+  padding: 8px 15px;
+  margin: 0;
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.snip1572 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1572:hover img,
+.snip1572.hover img {
+  zoom: 1;
+  filter: alpha(opacity=25);
+  -webkit-opacity: 0.25;
+  opacity: 0.25;
+}
+
+.snip1572:hover:before,
+.snip1572.hover:before,
+.snip1572:hover:after,
+.snip1572.hover:after {
+  opacity: 1;
+}
+
+.snip1572:hover:before,
+.snip1572.hover:before {
+  width: 50px;
+}
+
+.snip1572:hover:after,
+.snip1572.hover:after {
+  height: 50px;
+}
+
+.snip1572:hover h3,
+.snip1572.hover h3 {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+
+/*start news*/
+.news p{
+	font-size: 0.8em;
+	color: #888888;
+}
+.news .form-group .form-control{
+	background-color: #F2F2F2;
+	height: 3em;
+	border: none;
+	border-radius: 0px;
+	color: #333333;
+	width: 74%;
+	margin-left: 15%;
+}
+.news .btn-default{
+	width: 7em;
+	height: 3em;
+	border-radius: 20px;
+	background-color: #D34013;
+	border: 1px solid #F2F2F2;
+	color: #FFF;
+	transition: all 0.4s ease-in-out;
+}
+.news .btn-default:hover{
+	background-color: #713537;
+}
+
+/*start footer*/
+footer{margin-bottom: 4%}
+
+
+
+
+.slideshow img{height: 100%;opacity: 0.75}
+.snip1572{box-shadow:  6px 3px 8px #888;}
+#scroll{
+    position: fixed;
+    bottom: 5px;
+    left: 90%;
+    width: 30px;
+    height: 30px;
+    background-color: #CCC;
+    z-index: 999;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#scroll i{
+    color: #F10083;
+    margin: 8px 7px;
+}
